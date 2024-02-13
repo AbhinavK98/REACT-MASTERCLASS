@@ -1,0 +1,42 @@
+/* Video.css */
+
+/* Base styles for the card */
+.card {
+    
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the image */
+  .card img {
+    width: 20%;
+    border-radius: 5px 5px 0 0; /* Rounded corners for the top */
+  }
+  
+  /* Styling for the topic (assuming it's a heading) */
+  .card .topic {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; /* Dark text color */
+    margin-top: 10px;
+  }
+  
+  /* Additional styling for title, views, and time (customize as needed) */
+  .card .title,
+  .card .views,
+  .card .time {
+    font-size: 14px;
+    color: #777; /* Lighter text color */
+    margin-top: 5px;
+  }
+  
+  /* Hover effect (optional) */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 6, 6, 0.904);
+    transform: translateY(-2px);
+    transition: 0.3s;
+  }
+  
